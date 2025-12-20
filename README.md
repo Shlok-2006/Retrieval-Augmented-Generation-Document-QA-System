@@ -75,3 +75,8 @@ Application startup complete.
 - **Semantic embeddings** for robust similarity matching
 - **FAISS** for scalable and efficient nearest-neighbor search
 
+---
+
+## ⚠️ Note: The backend (FastAPI, FAISS, embeddings, and LLM inference) is intended to run locally due to ML dependencies and is not deployed publicly; the frontend is hosted via GitHub Pages for UI demonstration.
+
+
