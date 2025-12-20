@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RAG Document QA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app">
+
+    <header>
+      <h1>📄 RAG Document QA System</h1>
+      <p>Ask questions grounded in your documents</p>
+    </header>
+
+    <section class="query-section">
+      <input
+        id="q"
+        placeholder="Ask a question about your documents..."
+      />
+      <button onclick="ask()">Ask</button>
+    </section>
+
+    <section class="answer-section" id="answerSection">
+      <h2>Answer</h2>
+      <div class="answer-text" id="answerText">
+        Ask a question to see the answer here.
+      </div>
+
+      <h3>Sources</h3>
+      <ul class="sources-list" id="sourcesList"></ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
