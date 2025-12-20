@@ -77,6 +77,7 @@ Application startup complete.
 
 ---
 
-## ⚠️ Note: The backend (FastAPI, FAISS, embeddings, and LLM inference) is intended to run locally due to ML dependencies and is not deployed publicly; the frontend is hosted via GitHub Pages for UI demonstration.
+### ⚠️ Note: The backend (FastAPI, FAISS, embeddings, and LLM inference) is intended to run locally due to ML dependencies and is not deployed publicly.
+## The frontend is hosted via GitHub Pages for UI demonstration.
 
 
